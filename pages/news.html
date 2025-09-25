@@ -1,42 +1,47 @@
 <!DOCTYPE html>
-<html lang = "ru">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/styles.css">
     <title>Семестровая работа</title>
 </head>
 <body>
-<div id="header">Хэдер</div>
-<div id="menu">
-    <ul>
-        <li><a href="../index.html">Главная</a></li>
-        <li><a href="news.html">Новости</a></li>
-        <li><a href="practices.html">Практики</a></li>
-        <li><a href="goods.html">Товары</a></li>
-        <li><a href="contacts.html">Контакты</a></li>
-    </ul>
+<div class="page-container">
+    <div class="header">Хэдер</div>
+    <div class="nav">
+        <ul class="nav-list">
+            <li class="nav-item"><a class="nav-link" href="../index.html">Главная</a></li>
+            <li class="nav-item"><a class="nav-link" href="news.html">Новости</a></li>
+            <li class="nav-item"><a class="nav-link" href="practices.html">Практики</a></li>
+            <li class="nav-item"><a class="nav-link" href="goods.html">Товары</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <h1 class="news-title">Новости</h1>
+        <div class="news-container">
+            <div class="news-content">
+                <img class="news-photo" src="../images/new1.jpg" alt="Новость 1" width="360">
+                <div class="news-date">01.01.1111</div>
+                <div class="news-author">Мили котик Пушкин</div>
+                <div class="news-data">Котик родился!</div>
+            </div>
+            <div class="news-content">
+                <img class="news-photo" src="../images/new2.jpg" alt="Новость 2" width="360">
+                <div class="news-date">01.01.1111</div>
+                <div class="news-author">Мили котик Толстой</div>
+                <div class="news-data">Котик помылся!</div>
+            </div>
+            <div class="news-content">
+                <img class="news-photo" src="../images/new3.jpg" alt="Новость 3" width="360">
+                <div class="news-date">01.01.1111</div>
+                <div class="news-author">Мили котик 24</div>
+                <div class="news-data">Котик вырос!</div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">Футер</div>
 </div>
-<div id="content">
-    <p>Новости</p>
-    <div>
-        <img src="../images/new1.jpg" alt="Новость 1" width="360">
-        <div>01.01.1111</div>
-        <div>Мили котик Пушкин</div>
-        <div>Котик родился!</div>
-    </div>
-    <div>
-        <img src="../images/new2.jpg" alt="Новость 2" width="360">
-        <div>01.01.1111</div>
-        <div>Мили котик Толстой</div>
-        <div>Котик помылся!</div>
-    </div>
-    <div>
-        <img src="../images/new3.jpg" alt="Новость 3" width="360">
-        <div>01.01.1111</div>
-        <div>Мили котик 24</div>
-        <div>Котик вырос!</div>
-    </div>
-</div>
-<div id="footer">Футер</div>
 </body>
 </html>
