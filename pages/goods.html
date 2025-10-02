@@ -8,8 +8,12 @@
 </head>
 <body>
 <div class="page-container">
-    <div class="header">Хэдер</div>
-    <div class="nav">
+
+    <header class="header">
+        <h1>Хэдер</h1>
+    </header>
+
+    <nav class="nav">
         <ul class="nav-list">
             <li class="nav-item"><a class="nav-link" href="../index.html">Главная</a></li>
             <li class="nav-item"><a class="nav-link" href="news.html">Новости</a></li>
@@ -17,26 +21,34 @@
             <li class="nav-item"><a class="nav-link" href="goods.html">Товары</a></li>
             <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
         </ul>
-    </div>
-    <div class="content">
-    <h1 class="good-title">Товары</h1>
-    <div class="good-content">
-        <img class="good-photo" src="../images/good1.jpg" alt="Товар 1" height="300">
-        <div class="good-name">Cлоненок</div>
-        <div class="good-cost">20000р.</div>
-    </div>
-    <div class="good-content">
-        <img class="good-photo" src="../images/good2.jpg" alt="Товар 2" height="300">
-        <div class="good-name">Снеговик</div>
-        <div class="good-cost">100000р.</div>
-    </div>
-    <div class="good-content">
-        <img class="good-photo" src="../images/good3.jpg" alt="Товар 3" height="300">
-        <div class="good-name">Торт</div>
-        <div class="good-cost">3р.</div>
-    </div>
-</div>
-<div class="footer">Футер</div>
+    </nav>
+
+    <main class="content">
+
+        <h1 class="good-title">Товары</h1>
+        <div class="products-grid">
+
+            <div class="product-card">
+                <img class="product-image" src="../images/good1.jpg" alt="Товар 1" height="300">
+                <div class="product-name">Cлоненок</div>
+                <div class="product-price">20000р.</div>
+            </div>
+
+            <div class="product-card">
+                <img class="product-image" src="../images/good2.jpg" alt="Товар 2" height="300">
+                <div class="product-name">Снеговик</div>
+                <div class="product-price">100000р.</div>
+            </div>
+
+            <div class="product-card">
+                <img class="product-image" src="../images/good3.jpg" alt="Товар 3" height="300">
+                <div class="product-name">Торт</div>
+                <div class="product-price">3р.</div>
+            </div>
+
+        </div>
+    </main>
+    <div class="footer">Футер</div>
 </div>
 </body>
 </html>
